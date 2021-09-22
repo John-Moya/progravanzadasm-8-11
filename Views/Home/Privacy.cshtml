@@ -1,6 +1,96 @@
 ﻿@{
-    ViewData["Title"] = "Privacy Policy";
+    ViewData["Title"] = "Solicitud de piezas";
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<form>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputEmail4">Email de contacto</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+        </div>
+
+    </div>
+    <div class="form-group">
+        <label for="inputAddress">Direccion de entrega</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Ingresa aqui la direccion de entrega">
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputAddress2">Repuesto a solicitar</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Ingrese el nombre de la pieza">
+
+        </div>
+        <div class="form-group col-md-6">
+            <label for="exampleFormControlSelect1">Cantidad de piezas</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+
+
+                @for (var i = 0; i < 41; i++)
+                {
+                    <option>@i</option>
+
+                }
+
+            </select>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="exampleFormControlSelect1">Marca</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>Apollo Automobile</option>
+                <option>Audi</option>
+                <option>Alpina</option>
+                <option>Bitter Cars</option>
+                <option>BMW</option>
+                <option>Brabus</option>
+                <option>Ford</option>
+                <option>Hauser</option>
+                <option>Mercedes-Benz</option>
+                <option>Opel</option>
+                <option>Porsche</option>
+                <option>Ruf</option>
+                <option>Smart</option>
+                <option>Volkswagen</option>
+
+                <option>Beijing</option>
+                <option>Brilliance</option>
+                <option>BYD</option>
+                <option>Chana</option>
+                <option>Changanan Motors</option>
+                <option>Chery</option>
+                <option>Dongfeng Motor Corporation (DFSK)</option>
+                <option>First Automobile Works (FAW)</option>
+                <option>Geely</option>
+                <option>Great Wall</option>
+                <option>JAC Motors</option>
+                <option>Lifan</option>
+                <option>MG</option>
+                <option>Rely</option>
+                <option>Riich</option>
+                <option>Roewe</option>
+                <option>SAIC Motor</option>
+                <option>Tianjin</option>
+                <option>Thunder Power</option>
+
+
+            </select>
+        </div>
+
+        <div class="form-group col-md-6">
+            <label for="exampleFormControlSelect1">Año del modelo</label>
+            <input type="date" id="start" name="trip-start"
+                   value="2018-07-22"
+                   min="1970-01-01" max="2070-01-01" class="form-control">
+        </div>
+
+
+
+
+
+
+    </div>
+        
+        <button type="submit" class="btn btn-primary">Enviar solicitud</button>
+</form>

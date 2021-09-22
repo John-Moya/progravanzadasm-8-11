@@ -1,6 +1,6 @@
 using System;
 
-namespace s1.Models
+namespace tareaS1.Models
 {
     public class ErrorViewModel
     {
