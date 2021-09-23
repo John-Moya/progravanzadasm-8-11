@@ -1,0 +1,15 @@
+﻿
+@{
+    Layout = null;
+    string[] lista = ViewBag.lista;
+
+}
+
+<ul>
+
+@foreach(var item in lista) 
+{
+    <li>@item</li>    
+}
+
+</ul>
