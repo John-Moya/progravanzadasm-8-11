@@ -1,0 +1,6 @@
+Crear un proyecto ya sea una Veterinaria, venta de autos, venta de respuestos, hospital, restaurante.
+
+Agregar el controlador y vistas (Bienvenida, Acerca de,Contactenos, servicios) del modelo MVC.
+El contactenos debe inclir un Form
+
+Se puede usar bootstrap
