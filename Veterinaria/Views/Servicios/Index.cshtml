@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "Servicios";
+}
+
+<style>
+    body {
+        background-image: url(https://okdiario.com/img/2019/07/13/-cuales-son-las-diferentes-especialidades-veterinarias_.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    #list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    #listServ {
+        --c:darkgoldenrod;
+        color: black;
+        font-size: 10px;
+        border: 0.3em solid var(--c);
+        border-radius: 0.5em;
+        width: 12em;
+        height: 3em;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: sans-serif;
+        letter-spacing: 0.1em;
+        text-align: center;
+        line-height: 3em;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        transition: 0.5s;
+        margin: 1em;
+    }
+    #divServicios {
+        display: flex;
+        justify-content: center;
+        vertical-align: middle;
+        align-items: center;
+    }
+</style>
+<body>
+       <div id="divServicios">
+            <ul id="list">
+                <li id="listServ">
+                    Hotel para mascotas
+                </li>
+                <li id="listServ">
+                    Cirugías
+                </li>
+                <li id="listServ">
+                    Ultrasonido
+                </li>
+                <li id="listServ">
+                    Rayos X
+                </li>
+                <li id="listServ">
+                    Laboratorio
+                </li>
+                <li id="listServ">
+                    Peluquería
+                </li>
+                <li id="listServ">
+                    Emergencia 24 horas
+                </li>
+                <li id="listServ">
+                    Vacunación
+                </li>
+                <li id="listServ">
+                    Cremación
+                </li>
+            </ul>
+        </div>
+    
+</body>
