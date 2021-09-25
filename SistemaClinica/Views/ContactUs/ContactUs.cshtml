@@ -1,0 +1,93 @@
+﻿
+@{
+    ViewData["Title"] = "ContactUs";
+}
+
+
+
+<div class="jumbotron jumbotron-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <h1 class="h1">
+                    Contáctenos,<small> estamos para servirle</small>
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="well well-sm">
+                <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="name">
+                                    Nombre
+                                </label>
+                                <input type="text" class="form-control" id="name" placeholder="Su nombre" required="required" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">
+                                    Correo Electrónico
+                                </label>
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <span class="glyphicon glyphicon-envelope"></span>
+                                    </span>
+                                    <input type="email" class="form-control" id="email" placeholder="Ingrese su Correo" required="required" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">
+                                    Motivo de su contacto
+                                </label>
+                                <select id="subject" name="subject" class="form-control" required="required">
+                                    <option value="na" selected="">Elija una opción:</option>
+                                    <option value="service">Necesita una cita</option>
+                                    <option value="suggestions">Realizar una sugerencia</option>
+                                    <option value="product">Tiene consultas</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="name">
+                                    Su mensaje
+                                </label>
+                                <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                          placeholder=""></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                                Enviar
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <form>
+                <legend><span class="glyphicon glyphicon-globe"></span> Nuestra Dirección</legend>
+                <address>
+                    <strong>Montero Smile Art</strong><br>
+                    200 mts sur y 150 mts oeste de Torre Universal, <br>
+                    edificio Montero Smile Art, <br>
+                    Sabana Sur 10108 San José, Costa Rica. <br>
+                    <abbr title="Phone">
+                        Teléfono:
+                    </abbr>
+                    40702022
+                </address>
+                <address>
+                    <strong>Nuestro Correo</strong><br>
+                    <a href="mailto:#">hola@monterosmileart.com</a>
+                </address>
+            </form>
+        </div>
+    </div>
+</div>
