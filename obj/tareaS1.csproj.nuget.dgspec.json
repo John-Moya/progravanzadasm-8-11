@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\10.147.17.215\\compartida\\proyectos avanzada\\tarea s1\\tareaS1\\tareaS1.csproj": {}
+    "E:\\Repos\\tarea s1\\tareaS1\\tareaS1.csproj": {}
   },
   "projects": {
-    "\\\\10.147.17.215\\compartida\\proyectos avanzada\\tarea s1\\tareaS1\\tareaS1.csproj": {
+    "E:\\Repos\\tarea s1\\tareaS1\\tareaS1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\10.147.17.215\\compartida\\proyectos avanzada\\tarea s1\\tareaS1\\tareaS1.csproj",
+        "projectUniqueName": "E:\\Repos\\tarea s1\\tareaS1\\tareaS1.csproj",
         "projectName": "tareaS1",
-        "projectPath": "\\\\10.147.17.215\\compartida\\proyectos avanzada\\tarea s1\\tareaS1\\tareaS1.csproj",
+        "projectPath": "E:\\Repos\\tarea s1\\tareaS1\\tareaS1.csproj",
         "packagesPath": "C:\\Users\\Fabluxes_Laptop\\.nuget\\packages\\",
-        "outputPath": "\\\\10.147.17.215\\compartida\\proyectos avanzada\\tarea s1\\tareaS1\\obj\\",
+        "outputPath": "E:\\Repos\\tarea s1\\tareaS1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Fabluxes_Laptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,26 @@
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
