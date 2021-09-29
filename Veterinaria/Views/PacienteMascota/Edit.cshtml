@@ -1,0 +1,91 @@
+﻿@model Veterinaria.Models.PacienteMascota
+
+@{
+    ViewData["Title"] = "Editar Registro";
+}
+
+<style>
+    #tabla {
+        padding: 10px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    body {
+        background-color: #6CD3DB;
+    }
+
+    #header {
+        background-color: #057C85;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+        border-radius: 10px;
+    }
+</style>
+
+<h1>Editar Registro</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="id" />
+            <div class="form-group">
+                <!-- <label asp-for="NombreMascota" class="control-label"></label>-->
+                <label>Nombre de Mascota</label>
+                <input asp-for="NombreMascota" class="form-control" />
+                <span asp-validation-for="NombreMascota" class="text-danger"></span>
+            </div>
+                <div class="form-group">
+                    <label asp-for="Raza" class="control-label"></label>
+                    <input asp-for="Raza" class="form-control" />
+                    <span asp-validation-for="Raza" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <!--<label asp-for="FechaNacimientoMascota" class="control-label"></label>-->
+                    <label>Fecha de Nacimiento de la Mascota</label>
+                    <input asp-for="FechaNacimientoMascota" class="form-control" type="date"/>
+                    <span asp-validation-for="FechaNacimientoMascota" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <!--    <label asp-for="NombreDueno" class="control-label"></label>-->
+                    <label>Nombre del Dueño</label>
+                    <input asp-for="NombreDueno" class="form-control" />
+                    <span asp-validation-for="NombreDueno" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Telefono" class="control-label"></label>
+                    <input asp-for="Telefono" class="form-control" />
+                    <span asp-validation-for="Telefono" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Direccion" class="control-label"></label>
+                    <input asp-for="Direccion" class="form-control" />
+                    <span asp-validation-for="Direccion" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Correo" class="control-label"></label>
+                    <input asp-for="Correo" class="form-control" />
+                    <span asp-validation-for="Correo" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Cedula" class="control-label"></label>
+                    <input asp-for="Cedula" class="form-control" />
+                    <span asp-validation-for="Cedula" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Guardar cambios" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index">Volver a lista de registros</a>
+    </div>
+
+    @section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }
