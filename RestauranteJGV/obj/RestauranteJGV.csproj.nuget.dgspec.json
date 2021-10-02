@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jose\\source\\repos\\RestauranteJGV\\RestauranteJGV.csproj": {}
+    "C:\\Users\\Jose\\Documents\\progravanzadasm-8-11\\RestauranteJGV\\RestauranteJGV.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jose\\source\\repos\\RestauranteJGV\\RestauranteJGV.csproj": {
+    "C:\\Users\\Jose\\Documents\\progravanzadasm-8-11\\RestauranteJGV\\RestauranteJGV.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jose\\source\\repos\\RestauranteJGV\\RestauranteJGV.csproj",
+        "projectUniqueName": "C:\\Users\\Jose\\Documents\\progravanzadasm-8-11\\RestauranteJGV\\RestauranteJGV.csproj",
         "projectName": "RestauranteJGV",
-        "projectPath": "C:\\Users\\Jose\\source\\repos\\RestauranteJGV\\RestauranteJGV.csproj",
+        "projectPath": "C:\\Users\\Jose\\Documents\\progravanzadasm-8-11\\RestauranteJGV\\RestauranteJGV.csproj",
         "packagesPath": "C:\\Users\\Jose\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jose\\source\\repos\\RestauranteJGV\\obj\\",
+        "outputPath": "C:\\Users\\Jose\\Documents\\progravanzadasm-8-11\\RestauranteJGV\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -46,6 +46,30 @@
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
