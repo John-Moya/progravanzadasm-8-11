@@ -1,0 +1,15 @@
+﻿.letra {
+    color: yellow;
+}
+.backgorund {
+    background-image: url(../Images/avvvv.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+}
+.backgorund-show{
+    background-color:black;
+}
+.btn-main {
+    color:red;
+}
