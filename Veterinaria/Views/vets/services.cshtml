@@ -1,0 +1,48 @@
+﻿<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Veterinaria</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container">
+            <a class="navbar-brand" asp-area="" asp-controller="vets" asp-action="Start">Veterinaria</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="vets" asp-action="Services">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="vets" asp-action="Create">Reservar Cita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="vets" asp-action="Contacto">Contacto</a>
+                    </li>
+                </ul>
+                <partial name="_LoginPartial" />
+            </div>
+        </div>
+    </nav>
+</header>
+<h2 style="text-align:center; margin-top:40px">Services</h2>
+<div class="">
+    <table cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td>Corte de pelo<br /><img src="~/Images/pelon.jpg" /></td>
+            <td>Control medico<br /><img src="~/Images/vacuna.jpg" /></td>
+            <td>Masaje<br /><img src="~/Images/masaje.jpg" /></td>
+        </tr>
+        <tr>
+            <td>Baño<br /><img src="~/Images/Ducha.jpg" /></td>
+            <td>Alimentacion<br /><img src="~/Images/al.jpg" /></td>
+            <td>Cuidansa<br /><img src="~/Images/gato cas.jpg" /></td>
+
+        </tr>
+    </table>
+</div>
