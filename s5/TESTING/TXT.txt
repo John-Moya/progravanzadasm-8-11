@@ -1,0 +1,6 @@
+builder.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+
+https://youtu.be/KK7fJTXxeeE
+https://gitlab.com/danielCQgt4/pnud-atlas/-/blob/devCoto/src/backend/src/config/server.config.js#L18
